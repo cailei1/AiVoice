@@ -4,6 +4,7 @@ import android.app.Application
 import android.os.Bundle
 import com.alibaba.android.arouter.BuildConfig
 import com.alibaba.android.arouter.launcher.ARouter
+import com.example.lib_base.utils.LogUtils
 
 //路由帮助类
 object ARouterHelper {
