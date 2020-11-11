@@ -28,9 +28,11 @@ object DependenciesConfig {
 
     const val EVENT_BUS = "org.greenrobot:eventbus:3.2.0"
 
-    const val AROUTER="com.alibaba:arouter-api:1.5.1"
+    const val AROUTER = "com.alibaba:arouter-api:1.5.1"
 
-    const val AROUTER_COMPILER="com.alibaba:arouter-compiler:1.5.1"
+    const val AROUTER_COMPILER = "com.alibaba:arouter-compiler:1.5.1"
+
+    const val RECYCLERVIEW_LIBRARY = "androidx.recyclerview:recyclerview:1.2.0-alpha06"
 
 }
 

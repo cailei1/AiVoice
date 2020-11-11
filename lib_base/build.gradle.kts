@@ -38,8 +38,12 @@ dependencies {
     api(DependenciesConfig.EVENT_BUS)
 
     api(DependenciesConfig.AROUTER)
+
+    api(DependenciesConfig.RECYCLERVIEW_LIBRARY)
     //运行时注解
     annotationProcessor(DependenciesConfig.AROUTER_COMPILER)
+
+
 
 
     api(project(":lib_voice"))
