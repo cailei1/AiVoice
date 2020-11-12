@@ -1,6 +1,5 @@
 package com.example.lib_base.base.adapter
 
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -8,17 +7,17 @@ import androidx.recyclerview.widget.RecyclerView
 class CommonRecyclerAdapter<T>() : RecyclerView.Adapter<CommonViewHolder>() {
 
 
-    private lateinit var data: List<T>
+    private lateinit var data: ArrayList<T>
 
     private var oneViewTypeCreate: OneViewTypeCreate? = null
     private var moreViewTypeCreate: MoreViewTypeCreate? = null
 
-    constructor(data: List<T>, oneViewTypeCreate: OneViewTypeCreate) : this() {
+    constructor(data: ArrayList<T>, oneViewTypeCreate: OneViewTypeCreate) : this() {
         this.data = data
         this.oneViewTypeCreate = oneViewTypeCreate
     }
 
-    constructor(data: List<T>, moreViewTypeCreate: MoreViewTypeCreate) : this() {
+    constructor(data: ArrayList<T>, moreViewTypeCreate: MoreViewTypeCreate) : this() {
         this.data = data
         this.moreViewTypeCreate = moreViewTypeCreate
     }

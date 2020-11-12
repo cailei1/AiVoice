@@ -35,7 +35,7 @@ class CommonViewHolder(private val viewItem: View) : RecyclerView.ViewHolder(vie
     }
 
     fun setItemClickListener(id: Int, onClickListener: View.OnClickListener) {
-        getView(id).setOnClickListener { onClickListener.onClick() }
+        getView(id).setOnClickListener { onClickListener.onClick(it) }
     }
 
 
