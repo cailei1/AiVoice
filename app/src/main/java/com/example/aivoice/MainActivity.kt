@@ -5,12 +5,14 @@ import android.os.Bundle
 import android.view.View
 import com.example.lib_base.base.adapter.CommonRecyclerAdapter
 import com.example.lib_base.base.adapter.CommonViewHolder
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private val data= arrayListOf<String>("a","b","c","d")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
        val adapter= CommonRecyclerAdapter<String>(data,object :CommonRecyclerAdapter.OneViewTypeCreate{
            override fun getLayoutId(): Int {

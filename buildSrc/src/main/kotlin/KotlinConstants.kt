@@ -37,7 +37,7 @@ object DependenciesConfig {
 }
 
 object ModuleConfig {
-    var isApp = true
+    var isApp = false
 
     const val MODULE_APP_MANAGER = "com.example.module_app_manager"
     const val MODULE_CONSTELLATION = "com.example.module_constellation"

@@ -43,10 +43,4 @@ dependencies {
     //运行时注解
     annotationProcessor(DependenciesConfig.AROUTER_COMPILER)
 
-
-
-
-    api(project(":lib_voice"))
-    api(project(":lib_network"))
-
 }
